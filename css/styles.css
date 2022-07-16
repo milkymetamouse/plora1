@@ -1,0 +1,159 @@
+/* Elements */
+
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+  /* background-image: url('trees-img.png'); */
+}
+
+img {
+    width: 80%;
+    object-fit: cover;
+}
+
+/* Navbar */
+.container-fluid {
+  background-color: white;
+  color:black;
+  padding-top: 1.5%;
+}
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: #ef8172;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-items {
+  padding-left: 5%;
+  font-size: 1.5rem;
+}
+
+.action-btn:hover {
+  color: #ef8172;
+  text-decoration: underline;
+}
+
+/* Headline branding */
+
+.brand-about {
+  padding-top: 5%;
+}
+
+/* Search Bar */
+
+
+.search {
+  margin-top: 50px;
+
+
+}
+/* Style the search field */
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: 50%;
+  background: #f1f1f1;
+  border-radius: 20px;
+  box-shadow: 0px 15px 40px #7E6D5766;
+}
+
+/* Style the submit button */
+form.search button {
+  float: center;
+  width: 5%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  border-radius: 20px;
+  cursor: pointer;
+    box-shadow: 0px 15px 40px #7E6D5766;
+}
+
+form.search button:hover {
+  background: grey;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Tags */
+
+.tags {
+margin: 20px 10px;
+width: 48%;
+}
+
+.btn-tag {
+margin: 4px 4px;
+}
+
+
+/* Featured Bundles */
+
+.featured {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.featured-title {
+  padding-top: 2%;
+  text-align: left;
+}
+.featured-images {
+  padding-top: 2%;
+}
+
+
+/* Range Slider */
+
+/* .slider {
+background: #fcfcfc;
+border-radius: 20px;
+display: flex;
+align-items: center;
+box-shadow: 0px 15px 40px #7E6D5766;
+}
+.slider p {
+font-size: 26px;
+font-weight: 600;
+font-family: Open Sans;
+padding-left: 30px;
+color: black;
+}
+.slider input[type="range"] {
+-webkit-appearance:none !important;
+width: 420px;
+height: 2px;
+background: black;
+border: none;
+outline: none;
+}
+.slider input[type="range"]::-webkit-slider-thumb {
+-webkit-appearance: none !important;
+width: 30px;
+height:30px;
+background: black;
+border: 2px solid black;
+border-radius: 50%;
+cursor: pointer;
+}
+.slider input[type="range"]::-webkit-slider-thumb:hover {
+background: black;
+} */
